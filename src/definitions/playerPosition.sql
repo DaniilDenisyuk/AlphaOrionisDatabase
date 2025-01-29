@@ -1,0 +1,1 @@
+CREATE TYPE `player_position` AS ENUM ();
