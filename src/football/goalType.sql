@@ -1,0 +1,1 @@
+CREATE TYPE goal_type AS ENUM ('strike', 'header', 'own', 'penalty')

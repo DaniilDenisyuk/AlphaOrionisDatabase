@@ -1,1 +1,0 @@
-CREATE TYPE `coach_position` AS ENUM ();

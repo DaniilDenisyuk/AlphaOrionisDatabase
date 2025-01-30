@@ -1,0 +1,1 @@
+CREATE TYPE player_misconduct_type AS ENUM ('caution', 'dismissal');

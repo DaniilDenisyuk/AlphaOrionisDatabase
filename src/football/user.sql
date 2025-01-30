@@ -1,0 +1,6 @@
+CREATE TABLE user (
+  persona_id CHAR(16) REFERENCES persona (id)
+    ON DELETE RESTRICT ON UPDATE CASCADE PRIMARY KEY,
+  email VARCHAR(127) NOT NULL,
+  password_hash VARCHAR(63)
+);
